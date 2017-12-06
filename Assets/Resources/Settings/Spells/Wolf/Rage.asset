@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10697d1ba3d5668418edb1b434fca0a7, type: 3}
+  m_Name: Rage
+  m_EditorClassIdentifier: 
+  spellName: Rage
+  description: 
+  icon: {fileID: 21300000, guid: 6db4069b18a25974baca82dd74547f15, type: 3}
+  selfCastOnly: 1
+  friendCast: 0
+  enemieCast: 0
+  removeOnTurnEnd: 0
+  attackBuff: 50
+  critBuff: 0
+  speedBuff: 0
+  damageBuffType: 07000000
+  maxCastingTime: 0
+  castingCanBeInterrupted: 0
+  maxDuration: 3
+  canBeInterrupted: 1
+  maxCooldown: 5
+  damage: 0
+  attackCritChance: 0
+  damageType: 0
+  heal: 0
+  healCritChance: 0
+  resistancePercent: -25
+  resistanceType: 07000000
+  clearance: 0
+  stun: 0
+  linkedSpells: []
+  effect: {fileID: 100316, guid: 0b7d72b46deda9c46856d014916b5934, type: 2}
+  casterEffect: 0
+  target: 0
+  cost: 40

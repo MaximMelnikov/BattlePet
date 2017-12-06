@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c4ee47c6a64754fb5cce17da812a0c, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  title: Skeleton
+  petName: Bonnie
+  fullHp: 84
+  fullPower: 100
+  speed: 73
+  crit: 10
+  firstLevelExp: 300
+  abilities:
+  - {fileID: 11400000, guid: 3604c88780ded49418a0eb508606dfe1, type: 2}
+  - {fileID: 11400000, guid: 9c8403044db4be94fabd9c4d8895cfef, type: 2}
+  - {fileID: 11400000, guid: b1346444ee874b748a41cd3993f041fa, type: 2}
+  auras: []
+  type: 02000000
+  quality: 1
+  icon: {fileID: 21300000, guid: 195a45eb5c3705842863d1a1486332e1, type: 3}
+  prefab: {fileID: 100000, guid: f69f9dbdb93ac394c9b23e2a4780916d, type: 2}
+  idleAnims:
+  - skeleton_idle1
+  - skeleton_idle2
+  attackAnims:
+  - skeleton_attack
+  - skeleton_attack_repeatedly
+  hitAnims:
+  - skeleton_hit_front
+  - skeleton_hit_left
+  - skeleton_hit_right
+  dieAnims:
+  - skeleton_die
+  disorientationAnims:
+  - skeleton_dizzy

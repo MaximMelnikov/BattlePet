@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4817e3dcfd11ed345966422d9f7055ec, type: 3}
+  m_Name: StrongAgainstMatrix
+  m_EditorClassIdentifier: 
+  names:
+  - Physical
+  - Spiritual
+  - Death
+  - Fire
+  - Frost
+  - Electric
+  - Acid
+  matrix: 01010000010100000100010100010100010101000000000101000101000101000101010100010100010101010001000001
+  info:
+  - Your pets get critical chance bonus 5%
+  - Your pets resistance increased by 5%
+  - Your pets damage increased by 5%
+  - Your pets fire damage increased by 13%
+  - 10% to stun target
+  - Your pets get speed bonus 5
+  - Damage over time attacks reduce target speed by 15

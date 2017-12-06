@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c4ee47c6a64754fb5cce17da812a0c, type: 3}
+  m_Name: Wolf
+  m_EditorClassIdentifier: 
+  title: Wolf
+  petName: Alex Gray
+  fullHp: 90
+  fullPower: 100
+  speed: 70
+  crit: 20
+  abilities:
+  - {fileID: 11400000, guid: c7b828a075e853a42b859793379b5a10, type: 2}
+  - {fileID: 11400000, guid: c1a58246bb0ef214da6c9458d567fbd4, type: 2}
+  - {fileID: 11400000, guid: b0739bc3433e96b4da903d005430625a, type: 2}
+  auras: []
+  type: 00000000
+  quality: 0
+  icon: {fileID: 21300000, guid: 195a45eb5c3705842863d1a1486332e1, type: 3}
+  prefab: {fileID: 100014, guid: 6d488371ec2cd2f47844ab4b369acf0d, type: 2}
+  idleAnims:
+  - wolf_idle1
+  - wolf_idle2
+  attackAnims:
+  - wolf_bite
+  - wolf_attack_repeatedly
+  hitAnims:
+  - wolf_hit_front
+  - wolf_hit_left
+  - wolf_hit_right
+  dieAnims:
+  - wolf_die
+  disorientationAnims:
+  - wolf_dizzy

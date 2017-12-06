@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c4ee47c6a64754fb5cce17da812a0c, type: 3}
+  m_Name: Mummy
+  m_EditorClassIdentifier: 
+  title: Mummy
+  petName: Mob Barley
+  fullHp: 95
+  fullPower: 100
+  speed: 56
+  crit: 10
+  firstLevelExp: 300
+  abilities:
+  - {fileID: 11400000, guid: b20b3ec869aebba419894f7de596fab9, type: 2}
+  - {fileID: 11400000, guid: 14309fffb1eb44f4e818a6565e96481a, type: 2}
+  - {fileID: 11400000, guid: dfb73611ced9f9848bf3977515a6c42c, type: 2}
+  auras: []
+  type: 02000000
+  quality: 0
+  icon: {fileID: 21300000, guid: 195a45eb5c3705842863d1a1486332e1, type: 3}
+  prefab: {fileID: 100000, guid: e3c75dd69e67c64438c03ea320d390c6, type: 2}
+  idleAnims:
+  - mummy_idle1
+  - mummy_idle2
+  attackAnims:
+  - mummy_bite
+  - mummy_attack_repeatedly
+  hitAnims:
+  - mummy_hit_front
+  - mummy_hit_left
+  - mummy_hit_right
+  dieAnims:
+  - mummy_die
+  disorientationAnims:
+  - mummy_dizzy

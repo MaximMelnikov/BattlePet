@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c4ee47c6a64754fb5cce17da812a0c, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  title: Zombie
+  petName: Zob Rombie
+  fullHp: 90
+  fullPower: 100
+  speed: 50
+  crit: 20
+  firstLevelExp: 300
+  abilities:
+  - {fileID: 11400000, guid: c3477244f9529ae42b778ad580cb6fad, type: 2}
+  - {fileID: 11400000, guid: 207ea06f46419e044b782360ee6eaa79, type: 2}
+  - {fileID: 11400000, guid: b429f77378eb84c4e9fcbc5a6fb3acd4, type: 2}
+  auras: []
+  type: 06000000
+  quality: 0
+  icon: {fileID: 21300000, guid: 195a45eb5c3705842863d1a1486332e1, type: 3}
+  prefab: {fileID: 100026, guid: 050cd01d823162c448eb8b4623db987a, type: 2}
+  idleAnims:
+  - zombie_idle1
+  - zombie_idle2
+  attackAnims:
+  - zombie_bite
+  hitAnims:
+  - zombie_hit_front
+  - zombie_hit_left
+  - zombie_hit_right
+  dieAnims:
+  - zombie_die
+  disorientationAnims:
+  - zombie_dizzy

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10697d1ba3d5668418edb1b434fca0a7, type: 3}
+  m_Name: BoneBoomerang
+  m_EditorClassIdentifier: 
+  spellName: Bone Boomerang
+  description: 
+  icon: {fileID: 21300000, guid: 224fa266ee9bd714cbf7ea13b051b187, type: 3}
+  selfCastOnly: 0
+  friendCast: 0
+  enemieCast: 1
+  removeOnTurnEnd: 0
+  attackBuff: 0
+  critBuff: 0
+  speedBuff: 0
+  damageBuffType: 
+  maxCastingTime: 0
+  castingCanBeInterrupted: 0
+  maxDuration: 0
+  canBeInterrupted: 1
+  maxCooldown: 5
+  damage: 11
+  attackCritChance: 5
+  damageType: 2
+  heal: 0
+  healCritChance: 0
+  resistancePercent: 0
+  resistanceType: 
+  clearance: 0
+  stun: 0
+  linkedSpells: []
+  effect: {fileID: 100008, guid: 5815a7623bd959b46a88b3150245faae, type: 2}
+  target: 4
+  cost: 19
